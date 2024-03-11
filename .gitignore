@@ -4,3 +4,5 @@ logs
 test-result
 dist
 coverage
+docs/.vitepress/dist
+docs/.vitepress/cache
