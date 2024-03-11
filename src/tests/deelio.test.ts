@@ -1,7 +1,7 @@
 import express from 'express'
-import { deelio, DeelioConfig } from '../lib'
-import { beforeAll, describe, expect, it } from 'vitest'
+import { describe, expect, it } from 'vitest'
 import request from 'supertest'
+import { deelio, DeelioConfig } from '@/lib'
 
 const app = express()
 

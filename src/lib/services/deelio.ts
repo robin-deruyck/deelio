@@ -1,6 +1,4 @@
-import { DeelioConfig } from '../types'
-import { validateModelsType } from './validate'
-import { applyRouter, buildRouter } from './builder'
+import { DeelioConfig, validateModelsType, applyRouter, buildRouter } from '@/lib'
 
 export const deelio = (options: DeelioConfig) => {
   validateModelsType(options?.models ?? [])

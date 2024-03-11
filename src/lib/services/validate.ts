@@ -1,4 +1,4 @@
-import { DeelioEntity } from '../types'
+import { DeelioEntity } from '@/lib'
 
 export const validateModelsType = (models: Array<DeelioEntity>) => {
   if (!models.length) throw new Error('A list of model is required !')

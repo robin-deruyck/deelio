@@ -1,4 +1,4 @@
-import { DeelioEntity, DeelioRouter } from '../types'
+import { DeelioEntity, DeelioRouter } from '@/lib'
 
 export const buildRouter = (models: Array<DeelioEntity>) => {
   return models.reduce((prev, curr, index) => {
