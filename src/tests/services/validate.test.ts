@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
-import { DeelioEntity, validateDeelioEntity, validateModelsType } from '@/lib'
+import { validateDeelioEntity, validateModelsType } from '@/lib/services/validate'
+import { DeelioEntity } from '@/lib'
 
 describe('validateDeelioEntity', () => {
   it('should return true for valid DeelioEntity', () => {

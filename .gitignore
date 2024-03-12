@@ -4,3 +4,4 @@ logs
 test-result
 dist
 coverage
+*.tgz
